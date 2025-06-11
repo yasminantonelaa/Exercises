@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(){
+	
+	int a;
+	int b;
+	int c;
+	
+	printf("digite os valores de a, de b e de c:");
+	
+	scanf("%d \n %d \n %d", &a, &b,&c);
+	
+	int delta;
+	
+	delta = (b*b) + (4* a* c);
+	
+	printf(" o valor de delta eres %d", delta);
+}
