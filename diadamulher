@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <string.h> 
+
+int main(){
+	
+	char nome[50];
+	char sexo[15];
+	double valortotal;
+	
+	printf(" Qual é o seu nome?");
+	scanf("%s", nome);
+	
+	printf(" qual seu sexo?");
+	scanf("%s",sexo);
+	
+	printf("qual o valor total da sua compra?");
+	scanf("%lf",&valortotal);
+	
+	if(strcmp(sexo,"feminino")==0){
+		
+		double desconto;
+		desconto= valortotal * 0.13;
+		printf(" oie %d, feliz dia da mulher, vc so vai pagar %.2lf, arrasou diva", nome, valortotal- desconto);
+		
+	}
+	else{
+			double desconto;
+		desconto= valortotal * 0.05;
+		printf(" oie %s, feliz dia da mulher, vc so vai pagar %.2lf, arrasou divo", nome, valortotal - desconto);
+		
+	}
+}
