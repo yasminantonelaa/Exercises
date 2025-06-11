@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(){
+	
+	int quantcigarros;
+	int quantanos;
+	
+	
+	printf("quantos cigarros você fuma por dia?");
+	scanf("%d", &quantcigarros);
+	
+	printf("quantos anos você fumou?");
+	scanf("%d", &quantanos);
+	
+	int minutosquevcperdeu;
+	double anosquevcperdeu;
+	
+	minutosquevcperdeu = quantcigarros * 3650 * quantanos;
+	anosquevcperdeu = minutosquevcperdeu/ 1440;
+	
+	printf("voce perdeu %.2lf dias de vida", anosquevcperdeu);
+	
+	
+	
+}
