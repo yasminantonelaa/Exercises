@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(){
+	
+	int distancia;
+	
+	scanf("%d",&distancia);
+	
+	if ( distancia<= 200){
+		double valor;
+		valor = distancia * 0.5;
+		
+		printf("o valor da passagem sera de %.2lf reais", valor);
+	} else{
+		double valor;
+		 valor = distancia * 0.45;
+		 	printf("o valor da passagem sera de %.2lf reais", valor);
+	}
+	
+}
