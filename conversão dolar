@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(){
+	
+	 double dinheiro;
+	 
+	 printf("digite quanto dinheiro em reais vc tem:");
+	 scanf(" %lf",&dinheiro);
+	 
+	 double conversao;
+	 
+	 conversao= dinheiro/ 5.54;
+	 
+	 printf(" voce tem %.2lf dolares", conversao);
+	
+	
+	
+	
+}
