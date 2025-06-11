@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(){
+	printf("digite um numero\n");
+	
+     double X;
+
+scanf("%lf",&X);
+
+double Y= 2*X ;
+double Z = X/3;
+
+
+printf("o DOBRO DE %.2lf eres %.2lf \n", X , Y);
+printf(" a terca parte de %.2lf eres %.2lf ",X, Z);
+}
+
+//////////////////
